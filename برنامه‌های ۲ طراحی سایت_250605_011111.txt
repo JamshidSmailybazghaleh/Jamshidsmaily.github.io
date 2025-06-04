@@ -1,0 +1,152 @@
+{
+  "name": "Echoes of Gilan",
+  "description": "A unique cultural NFT capturing the philosophical and historical essence of Gilan, created by Jamshid Smaily.",
+  "image": "ipfs://[IMAGE_CID]",
+  "external_url": "https://jamshidsmailybazghaleh.github.io/NFT/Echoes-of-Gilan/",
+  "attributes": [
+    { "trait_type": "Category", "value": "Philosophy & Culture" },
+    { "trait_type": "Language", "value": "English-Persian" },
+    { "trait_type": "Edition", "value": "First Edition" }
+  ]
+} 
+
+و
+
+Smaily Book Store 
+
+Smaily Book Store
+
+Where Knowledge Meets Soul
+
+ 
+
+Phoenix of Deylaman
+
+Authored by Jamshid Smaily | Smaily Book Store
+
+The official NFT and digital release page for the book Phoenix of Deylaman. Explore, own, and register this literary work in Web3 format, authenticated through IPFS and NFT standards.
+
+<!-- NFT Gallery Preview --> <section class="grid md:grid-cols-3 gap-6"> <div class="bg-white p-4 rounded shadow"> <img src="/assets/nfts/lights-in-the-dark.jpg" class="rounded mb-2"> <h3 class="font-semibold text-lg">Lights in the Dark</h3> <p class="text-sm text-gray-600">Explore the NFT details and metadata.</p> </div> <div class="bg-white p-4 rounded shadow"> <img src="/assets/nfts/echoes-of-gilan.jpg" class="rounded mb-2"> <h3 class="font-semibold text-lg">Echoes of Gilan</h3> <p class="text-sm text-gray-600">An homage to the mystical culture of Gilan.</p> </div> <div class="bg-white p-4 rounded shadow"> <img src="/assets/nfts/the-tree-of-cultures.jpg" class="rounded mb-2"> <h3 class="font-semibold text-lg">The Tree of Cultures</h3> <p class="text-sm text-gray-600">NFT with cultural depth and philosophical meaning.</p> </div> </section> © 2025 Smaily Book Store — All rights reserved. 
+
+و
+
+export default function HomePage() { return ( 
+
+SMAILY BOOK STORE
+
+Where Knowledge Meets Soul
+
+<section className="p-8 max-w-4xl mx-auto text-center"> <h2 className="text-2xl font-semibold mb-4">Featured Book</h2> <div className="bg-slate-700 rounded-2xl p-6 shadow-lg"> <h3 className="text-xl font-bold mb-2">Phoenix of Deylaman</h3> <p className="text-slate-300 mb-4">Book Cover</p> <p className="text-sm text-slate-400">Authored by Jamshid Smaily | Smaily Book Store</p> </div> </section> <section className="p-8 max-w-5xl mx-auto"> <h2 className="text-xl font-semibold mb-6 text-center">NFT Collection</h2> <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"> <div className="bg-slate-800 rounded-xl p-4 shadow-md"> <h4 className="font-bold text-lg">Lights in the Dark</h4> <p className="text-sm text-slate-400 mt-1">Motivational Mini-book</p> </div> <div className="bg-slate-800 rounded-xl p-4 shadow-md"> <h4 className="font-bold text-lg">Echoes of Gilan</h4> <p className="text-sm text-slate-400 mt-1">Spiritual-cultural series</p> </div> <div className="bg-slate-800 rounded-xl p-4 shadow-md"> <h4 className="font-bold text-lg">The Tree of Cultures</h4> <p className="text-sm text-slate-400 mt-1">Multicultural tribute</p> </div> </div> </section> <footer className="text-center text-xs text-slate-500 mt-12 pb-4"> © 2025 Smaily Book Store. All rights reserved. </footer> </main> 
+
+); }
+
+و
+
+Phoenix of Deylaman | Smaily Book Store body { margin: 0; font-family: 'Roboto', sans-serif; background: #f9f9f9; color: #333; } header { background: linear-gradient(to right, #5725a1, #7c3aed); padding: 1rem 2rem; color: white; text-align: center; } h1 { font-family: 'Playfair Display', serif; margin: 0.5rem 0; } nav { display: flex; justify-content: center; background-color: #ececec; padding: 0.5rem; } nav a { margin: 0 1rem; text-decoration: none; color: #333; font-weight: bold; } section { max-width: 900px; margin: 2rem auto; padding: 1rem; } .book-cover { display: block; margin: 2rem auto; max-width: 300px; border-radius: 1rem; box-shadow: 0 0 10px rgba(0,0,0,0.2); } .dropdown { background: #f0f0f0; margin: 1rem 0; border-radius: 0.5rem; overflow: hidden; } .dropdown input { display: none; } .dropdown label { display: block; padding: 1rem; background: #ddd; cursor: pointer; font-weight: bold; } .dropdown .content { max-height: 0; overflow: hidden; transition: max-height 0.3s ease; padding: 0 1rem; } .dropdown input:checked ~ .content { max-height: 300px; padding: 1rem; } footer { text-align: center; font-size: 0.9rem; color: #777; padding: 2rem 1rem; } 
+
+Phoenix of Deylaman
+
+Smaily Book Store – Where knowledge meets soul
+
+About Download Contact  
+
+About the Book 
+
+Phoenix of Deylaman is a philosophical, historical, and poetic exploration of Gilan's independent identity, written by Jamshid Smaily. This book bridges timeless wisdom and modern cultural awakening.
+
+Author & Brand 
+
+Written by Jamshid Smaily, this book is part of the Smaily Book Store collection, dedicated to global publishing, IPFS registration, and blockchain ownership. All rights protected under international copyright.
+
+NFT & IPFS 
+
+The digital edition is registered as NFT and securely stored via IPFS.
+Wallet ID: 0x7DC23AF1A8aF40232b1a6b8877DB7A1660923743
+
+Download Links
+
+• 📘 PDF Version
+
+• 🌐 IPFS Link
+
+• 🖼 NFT on OpenSea
+
+© 2025 Smaily Book Store – All rights reserved. 
+
+و
+
+Jamshid Smaily – Official Site 
+
+Jamshid Smaily
+
+• Home
+
+• About
+
+• Books
+
+• NFTs
+
+• Contact
+
+Where Knowledge Meets Soul
+
+Welcome to the official site of Jamshid Smaily – Author, Researcher, and Cultural Entrepreneur
+
+<section id="about"> <h2>About</h2> <p>Jamshid Smaily is a visionary committed to intellectual, cultural, and educational growth across generations and borders.</p> </section> <section id="books"> <h2>Books</h2> <p>Explore featured works on philosophy, self-development, and cultural identity. Full list coming soon.</p> </section> <section id="nft"> <h2>NFTs</h2> <p>All intellectual property is protected and published on blockchain. Registered via Trust Wallet: <strong>0x7DC23AF1A8aF40232b1a6b8877DB7A1660923743</strong></p> </section> <section id="contact"> <h2>Contact</h2> <p>To get in touch, please email: <a href="mailto:contact@jamshidsmaily.com">contact@jamshidsmaily.com</a></p> </section> 
+
+© 2025 Jamshid Smaily – Smaily Book Store | All rights reserved.
+
+و
+
+Jamshid Smaily – Where Knowledge Meets Soul * { margin: 0; padding: 0; box-sizing: border-box; } body { font-family: Arial, sans-serif; line-height: 1.6; background: #f4f4f4; color: #333; } header { background: #1c1c1c; color: #fff; padding: 1rem 2rem; position: sticky; top: 0; z-index: 1000; } header h1 { font-size: 1.5rem; } nav ul { display: flex; list-style: none; gap: 1.5rem; margin-top: 0.5rem; } nav ul li { cursor: pointer; transition: 0.3s; } nav ul li:hover { color: #00b894; } .hero { background: linear-gradient(to bottom right, #00b894, #0984e3); color: white; text-align: center; padding: 4rem 2rem; } .hero h2 { font-size: 2.5rem; margin-bottom: 1rem; } .hero p { font-size: 1.2rem; max-width: 600px; margin: auto; } .section { padding: 3rem 2rem; background: white; margin: 2rem auto; border-radius: 12px; max-width: 900px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); } .section h3 { margin-bottom: 1rem; color: #2d3436; } .section p { color: #636e72; } footer { background: #2d3436; color: white; text-align: center; padding: 1rem 2rem; margin-top: 4rem; } 
+
+Jamshid Smaily
+
+• Home
+
+• Books
+
+• NFT
+
+• Projects
+
+• Contact
+
+<section class="hero"> <h2>Where Knowledge Meets Soul</h2> <p>Empowering culture, ethics, and innovation through multilingual publishing and blockchain protection.</p> </section> <section class="section"> <h3>About the Author</h3> <p>Jamshid Smaily Bazghaleh is a researcher, educator, and cultural entrepreneur focused on elevating human potential through knowledge, creativity, and respectful collaboration.</p> </section> <section class="section"> <h3>Featured NFT Projects</h3> <p>Digital editions and intellectual property registered on blockchain. Secure, unique, and globally accessible.</p> </section> <footer> <p>Smaily Book Store | All Rights Reserved © 2025</p> </footer> 
+
+و
+
+Lights in the Dark
+
+A motivational book on hope and resilience.
+
+View NFT (IPFS) Download PDF 
+
+Echoes of Gilan
+
+A poetic tribute to the spiritual and cultural richness of Gilan.
+
+View NFT (IPFS) Download PDF 
+
+The Power of Simplicity
+
+Reflecting on the elegance of minimalist living.
+
+View NFT (IPFS) Download PDF 
+
+و
+
+NFT Library – Jamshid Smaily 
+
+Smaily Book Store
+
+Where knowledge meets soul
+
+NFT Book Collection
+
+<!-- NFT Card 1 --> <div class="bg-white p-4 rounded-lg shadow"> <h3 class="text-lg font-bold mb-2">Echoes of Gilan</h3> <p class="text-sm text-gray-600">Philosophical and historical reflection on Gilan</p> <a href="https://ipfs.io/ipfs/QmExampleCID1" class="text-blue-600 underline mt-2 inline-block" target="_blank">Download PDF</a> </div> <!-- NFT Card 2 --> <div class="bg-white p-4 rounded-lg shadow"> <h3 class="text-lg font-bold mb-2">Lights in the Dark</h3> <p class="text-sm text-gray-600">Strategic mini-book from AMĀD for TAVĀNESH series</p> <a href="https://ipfs.io/ipfs/QmExampleCID2" class="text-blue-600 underline mt-2 inline-block" target="_blank">Download PDF</a> </div> <!-- NFT Card 3 --> <div class="bg-white p-4 rounded-lg shadow"> <h3 class="text-lg font-bold mb-2">Whispers of the Earth</h3> <p class="text-sm text-gray-600">Spiritual ecology and poetic insight</p> <a href="https://ipfs.io/ipfs/QmExampleCID3" class="text-blue-600 underline mt-2 inline-block" target="_blank">Download PDF</a> </div> </div> 
+
+© 2025 Smaily Book Store | All rights reserved. 
+
+و
