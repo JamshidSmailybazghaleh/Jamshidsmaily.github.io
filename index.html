@@ -1,11 +1,66 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="fa">
 <head>
-  <title>Phoenix of Deylaman</title>
   <meta charset="UTF-8">
+  <title>Phoenix of Deylaman</title>
+  <style>
+    body {
+      font-family: Tahoma, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f2f2f2;
+      text-align: center;
+    }
+    h1 {
+      margin-top: 30px;
+      font-size: 28px;
+      color: #333;
+    }
+    #digital-clock {
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+      background-color: rgba(0,0,0,0.7);
+      color: #fff;
+      font-size: 16px;
+      padding: 6px 12px;
+      border-radius: 8px;
+    }
+    img {
+      max-width: 90%;
+      height: auto;
+      margin-top: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 12px rgba(0,0,0,0.3);
+    }
+  </style>
 </head>
-<body style="text-align:center; font-family:sans-serif;">
+<body>
   <h1>Phoenix of Deylaman</h1>
-  <img src="cover.jpg" alt="Book Cover" style="max-width:90%; height:auto; box-shadow:0 0 10px rgba(0,0,0,0.5);">
+  <img src="cover.jpg" alt="Book Cover">
+  <div id="digital-clock">--:-- ، --/--</div>
+  <script>
+    function toPersianDate(gDate) {
+      const persianDate = new Intl.DateTimeFormat('fa-IR-u-ca-persian', {
+        day: '2-digit',
+        month: 'numeric',
+        year: 'numeric'
+      }).format(gDate);
+      const parts = persianDate.split('‎');
+      return parts[0].trim().substring(0,5);
+    }
+
+    function updateClock() {
+      const now = new Date();
+      const hours = String(now.getHours()).padStart(2,'0');
+      const minutes = String(now.getMinutes()).padStart(2,'0');
+      const persianDate = toPersianDate(now);
+      document.getElementById('digital-clock').textContent = `${hours}:${minutes} ، ${persianDate}`;
+    }
+
+    setInterval(updateClock, 1000);
+    updateClock();
+  </script>
 </body>
 </html>
